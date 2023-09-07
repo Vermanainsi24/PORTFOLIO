@@ -1,0 +1,426 @@
+*
+{
+    cursor:pointer;
+}
+body
+{
+ BACKGROUND:BLACK;
+ MARGIN:0;
+ PADDING:0;
+}
+#NAVBAR{
+    DISPLAY:FLEX;
+    flex-direction: row;
+    justify-content: flex-end;
+    height:30PX;
+    PADDING:12PX;
+    list-style: none;
+}
+a{
+    padding:8PX;
+    margin:5px;
+    text-decoration:none;
+    color:aliceblue;
+    font-weight: bolder;
+    font-size: 20px ;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+a:hover{
+    color:red;
+    height:2px ;
+    width:2px;
+}
+.HEADING1::before{
+    CONTENT:" ";
+    BACKGROUND:URL('PORTBG.jpeg') CENTER CENTER/COVER NO-REPEAT;
+    TOP:0;
+    LEFT:0;
+    WIDTH:100vw;
+    HEIGHT:100vh;
+    position: absolute;
+    z-index: -1;
+    OPACITY:0.53;
+}
+.INTRO{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    HEIGHT:100VH;
+    WIDTH:98VW;
+    float:right;
+
+}
+.HY{
+
+    display: flex;
+    flex-direction: column;
+    HEIGHT:600PX;
+    WIDTH:600PX;
+    margin-left: -500PX;
+    text-align: center;
+}
+#HELLO{
+color:WHITE;
+font-size: 50px;
+HEIGHT:100;
+padding: 10PX;
+WIDTH:500PX;
+font-weight: bolder;
+font-family: 'Baloo Bhaijaan 2', cursive;
+text-shadow: 3PX 4PX BLACK
+
+}
+#HELLO:HOVER{
+    COLOR:YELLOW;
+}
+#WEB{
+color:WHITE;
+font-size: 45px;
+HEIGHT:80;
+WIDTH:500PX;
+font-weight: bolder;
+margin-top: -50PX;
+PADDING:10PX;
+font-family: 'Caprasimo', cursive;
+text-shadow: 2PX 4PX cyan ;
+box-sizing: border-box;
+}
+#WEB:hover{
+    font-size:48PX;
+}
+#quote{
+    font-size:20px;
+    color:WHITE;
+    font-family: 'Pacifico', cursive;
+    TEXT-ALIGN:CENTER;
+    margin-left:-15px;
+    margin-top:-20px;
+    
+}
+.btn{
+    display: flex;
+    justify-content:center;
+}
+#hire{
+    background:RED;
+    color:white;
+    font-size:20px;
+    width:150px;
+    height:40px;
+    border-radius:8px;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+}
+#hire:hover{
+    background: cyan;
+    color:black
+}
+#work{
+    background:WHITE;
+    color:BLACK;
+    width:150px;
+    height:40px;
+    border-radius:8px;
+    FONT-SIZE:15PX;
+    font-weight: bold;
+    margin-left:7px;
+    font-family: 'Shadows Into Light', cursive;
+}
+#work:hover{
+
+ border-radius:20px;
+}
+#my{
+    height:70px;
+    width:100%;
+    text-align: center;
+    COLOR:WHITE;
+    font-weight: bolder;
+    font-size: 60px;
+    font-family: 'Courgette', cursive;
+    transition-property: all;
+}
+.CONTAINER::before{
+    BACKGROUND:URL('SKILLPORTFOLIO.webp') NO-REPEAT CENTER CENTER/COVER;
+    content: "";
+    position: absolute;
+    Z-INDEX:-1;
+    HEIGHT:60VH;
+    WIDTH:100%;
+    opacity: 0.4;
+}
+.CONTAINER{
+    display: flex;
+    flex-direction:ROW;
+    HEIGHT:60vh;
+    WIDTH:100%;
+    justify-content: center;
+    align-content: center;
+    margin-top: 650PX;
+}
+.SKILL{
+    BORDER:2PX WHITE SOLID;
+    PADDING:25PX;
+    COLOR:WHITE;
+    text-align: center;
+    HEIGHT:150PX;
+    WIDTH:28%;
+    margin-left: 10PX;
+    border-radius: 10PX;
+    font-size: 40PX;
+    text-shadow:1PX 1PX CYAN;
+    box-shadow: 6PX 4PX 0.3 blue;
+    transition-property: all;
+    transition-duration:1S ;
+    transition-timing-function:ease-in-out;
+
+}
+.SKILL:HOVER{
+    border-radius:5PX ;
+    border-color: aqua;
+    background-color: aliceblue;
+    color:#000000;
+    height: 160px;
+}
+.DEV{
+    HEIGHT:60PX;
+    WIDTH:350PX;
+    display: flex;
+    flex-direction:ROW;
+    justify-content: center;
+}
+#SKILL2{
+    text-align: center;
+    font-size: 45PX;
+
+} 
+.IMAGES{
+    HEIGHT:60PX;
+    WIDTH:60PX;
+   }
+
+#python{
+    HEIGHT:150;
+    WIDTH:350PX;
+    display: flex;
+    flex-direction:COLUMN;
+    justify-content: center;
+}
+#PY{
+    HEIGHT:70PX;
+    WIDTH:80PX;
+    align-self: center;
+    margin-top: 30px;
+}
+#c{
+    HEIGHT:150;
+    WIDTH:350PX;
+    display: flex;
+    flex-direction:COLUMN;
+    justify-content: center; 
+}
+#ccc{
+    HEIGHT:70PX;
+    WIDTH:80PX;
+    align-self: center;
+    margin-top: 30px;
+
+}
+#WORK{
+    height:70px;
+    width:100%;
+    margin-top: -100px;
+    text-align: center;
+    COLOR:WHITE;
+    font-weight: bolder;
+    font-size: 60px;
+    font-family: 'Courgette', cursive;
+}
+.WORKING{
+    display: flex;
+    flex-direction: column;
+    height: 60VH;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+.websites{
+    border:2px solid GREY;
+    background :WHITE;
+    height:70PX;
+    width:830PX;
+    padding:10px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10PX;
+    COLOR:black;
+    background: NONE;
+    font-weight: bolder;
+    font-size: 18px;
+    align-self: center;
+    font-family: 'Courgette', cursive;
+    background: white;
+    
+}
+.websites:HOVER{
+    background: cyan;
+    WIDTH:850PX;
+}
+#MYCERTIFICATES{
+    height:70px;
+    width:100%;
+    text-align: center;
+    COLOR:WHITE;
+    font-weight: bolder;
+    font-size: 60px;
+    font-family: 'Courgette', cursive;
+}
+.CERTIFY{
+    display: flex;
+    flex-direction: ROW;
+    height: 60VH;
+    width: 100%;
+    justify-content: space-around;
+    align-content: center;
+    
+}
+#CSS{
+    border:2px solid yellow;
+    HEIGHT:200PX;
+    WIDTH:400PX;
+}
+#CSS:HOVER{
+    HEIGHT:300PX;
+    WIDTH:500PX;
+    border-color:white;
+
+}
+#HTML{
+    border:3px solid yellow;
+    HEIGHT:200PX;
+    WIDTH:400PX;
+}
+#HTML:HOVER{
+    HEIGHT:300PX;
+    WIDTH:500PX;}
+#EDUREKA{
+    border:3px solid yellow;
+    HEIGHT:200PX;
+    WIDTH:400PX;
+}
+#EDUREKA:HOVER{
+    HEIGHT:300PX;
+    WIDTH:500PX;}
+
+HR{
+    background:GREY;
+    HEIGHT:5PX;
+    width: 100%;
+}
+#me{
+    height:70px;
+    width:98vw;
+    text-align: center;
+    COLOR:WHITE;
+    font-weight: bolder;
+    font-size: 60px;
+    font-family: 'Courgette', cursive;
+
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width:100%;
+    margin-top:-10PX;
+}
+.box::before{
+    BACKGROUND:URL('CONTACTPORT.jpeg') NO-REPEAT CENTER CENTER/COVER;
+    content: "";
+    position: absolute;
+    Z-INDEX:-1;
+    HEIGHT:70VH;
+    WIDTH:100%;
+    opacity: 0.3;
+
+}
+.input{
+    height:40PX;
+    width:260PX;
+    margin-top:10px;
+    padding: 5PX;
+    text-align: center;
+    border-radius: 10PX;
+    COLOR:WHITE;
+    background: NONE;
+    font-weight: bolder;
+    font-size: 15px;
+    align-self: center;
+    font-family: 'Courgette', cursive;
+    
+}
+#SENDING{
+    border: 2PX SOLID RED;
+    width: 70PX;
+    height: 150PX;
+    margin-LEFT:590px;
+    margin-top: 20PX;
+    padding: 5PX;
+    BORDER:BLACK;
+    background: yellow;
+    border-radius: 5PX;
+    justify-self: center;
+    font-size: 15PX;
+    font-weight: bold;
+}
+#SENDING:hover
+{
+    background: rgb(111, 106, 106);
+    color: aliceblue;
+}
+::placeholder{
+    color: white;
+    font-sIZE:15PX;
+    text-align: left;
+    font-family: 'Courgette', cursive;
+    opacity: 1;
+
+}
+#GIT{
+
+    filter: invert(100);
+    height: 70PX;
+    width: 60PX;
+    margin-left: 130PX;
+}
+#LINK{
+    margin-left: 480PX;
+    height: 70PX;
+    width: 60PX;
+  
+}
+.mail{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font: 20px;
+    font-weight: bold;
+    font-family: 'Courgette', cursive;
+    color:yellow;
+    margin-top: 60px;
+    text-decoration: underline;
+}
+.mail:hover{
+    color:red;
+}
+#COPY{
+    background-color: #000000;
+    color:aliceblue;
+    text-align: center;
+    height: 20PX;
+    WIDTH:100%;
+    font-size: 15PX;
+    margin-top: 80PX;
+}
